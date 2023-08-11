@@ -6,39 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of DOM</title>
     <link rel="stylesheet" href="./styles/style.css">
+
+    <style>
+        #fruits-title {
+            color: black;
+        }
+
+        .important-places {
+            color: blueviolet;
+        }
+        .fruit-container li{
+            color: blue;
+
+        }
+    </style>
+
 </head>
 
 <body>
 
     <header>
         <h1>Welcome to my DOM</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque nostrum sequi doloribus eaque
+            reiciendis dolore quaerat consequuntur ea ab.</p>
     </header>
 
     <main>
-        <h1>My Awesome DOM</h1>
-        <ul>
-            <li>Jalali Set</li>
-            <li>Safayet</li>
-            <li>Bonobash</li>
-            <li>dom de re baba</li>
-        </ul>
-        <ul>
-            <li>KAmal Set</li>
-            <li>Kuyet</li>
-            <li>Valobasha</li>
-            <li>dom de re amma</li>
-        </ul>
 
-        <h1>footer er age header</h1>
+
+        <section id="my-dom">
+            <h1>My Awesome DOM</h1>
+            <ul>
+                <li>Jalali Set</li>
+                <li>Safayet</li>
+                <li>Bonobash</li>
+                <li>dom de re baba</li>
+            </ul>
+        </section>
+
+
+        <section class="fruit-container">
+            <!-- wfhergofewrgj -->
+            <h1 id="fruits-title" class="fruit-class random kochi">Fruits I like</h1>
+            <ul>
+                <li>Mango</li>
+                <li>Banana</li>
+                <li>cucumber</li>
+                <li>carrot</li>
+            </ul>
+        </section>
+
+
+        <section class="place-container">
+            <h1 id="places-title">Places I like to visit</h1>
+            <ul>
+                <li class="important-places">Sundarban</li>
+                <li class="important-places">Bandarban</li>
+                <li class="important-places">Shalban</li>
+                <li class="other-places">Gaibandha</li>
+            </ul>
+        </section>
+
     </main>
-
     <script src="./js/dom.js"></script>
-
-
-
-    <script>
-        
-    </script>
 
 
 </body>
