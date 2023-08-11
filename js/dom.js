@@ -45,4 +45,14 @@
 
 
 
+//innerHtml & innerText
 
+// //For Class
+// console.log(document.getElementsByClassName('fruit-container')[0].innerHTML)
+// console.log(document.getElementsByClassName('fruit-container')[0].innerText)
+
+
+// //For ID
+// const d = document.getElementById('my-dom')
+// console.log(d.innerHTML)
+// console.log(d.innerText)
